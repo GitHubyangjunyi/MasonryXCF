@@ -4,16 +4,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "MasonryXCF",
+    name: "Masonry",
     products: [
         .library(
-            name: "MasonryXCF",
-            targets: ["MasonryXCF"]),
+            name: "Masonry",
+            targets: ["Masonry"]),
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
-          name: "MasonryXCF",
+          name: "Masonry",
           path: "./Sources/Masonry.xcframework")
     ]
 )
